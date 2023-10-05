@@ -11,6 +11,12 @@
 
 </div>
 
+## Descrição
+
+Este é um esqueleto de código que usa Python e Flask.
+
+Auxilia na criação acelerada de aplicações, poc's e estudos da tecnologia.
+
 ## Requisitos
 
  [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
