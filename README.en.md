@@ -17,10 +17,6 @@ This is a code skeleton that uses Python and Flask.
 
 Assists in the accelerated creation of applications, poc's and technology studies.
 
-## Descrição
-
-Este é um esqueleto para auxilio na criação de aplicações usando Python e Flask.
-
 ## Requisites
 
  [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
