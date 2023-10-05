@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+source $(dirname $(readlink -fm $0))/common/bootstrap
+
+export HTTP_SERVER="127.0.0.1"
+export HTTP_PORT=5000 
+
+curl http://${HTTP_SERVER}:${HTTP_PORT}

@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+
+export PATH_APP_ROOT=$(dirname $(dirname $(readlink -fm $0)))
+export PATH_BIN=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
+export PATH_BIN_COMMON="${PATH_BIN}"
+export FILE_BIN_CONSTANTS="${PATH_BIN_COMMON}/constants"
+export FILE_BIN_FUNCTIONS="${PATH_BIN_COMMON}/functions"
+
+# install envs
+export PATH_INSTALL="${PATH_APP_ROOT}"
+export FILE_INSTALL="${PATH_INSTALL}/requirements.txt" 
+export FILE_INSTALL_DEV="${PATH_INSTALL}/requirements_dev.txt" 
+
+# app envs
+# paths
+export PATH_STORAGE="${PATH_APP_ROOT}/storage"
+export PATH_UPLOADS="${PATH_STORAGE}/uploads"
+export PATH_TEMPS="${PATH_APP_ROOT}/tmp"
+export PATH_LOGS="${PATH_TEMPS}/logs"
+export PATH_CACHES="${PATH_TEMPS}/caches"
+export PATH_INDEXES="${PATH_TEMPS}/indexes"
+export PATH_LOCALES="${PATH_TEMPS}/locales"
+export PATH_SESSIONS="${PATH_TEMPS}/sessions"
+# files
+export FILE_LOGS_EXTENSION=".log"
+
+# constants import
+if [ ! -f "${FILE_BIN_CONSTANTS}" ]; then
+    echo "Invalid config \\n"
+    echo "File ${FILE_BIN_CONSTANTS} not found \\n"
+    exit 0
+else
+    source "${FILE_BIN_CONSTANTS}" 
+fi
+
+# functions import
+if [ ! -f "${FILE_BIN_FUNCTIONS}" ]; then
+    echo "Invalid config \\n"
+    echo "File ${FILE_BIN_FUNCTIONS} not found \\n"
+    exit 0
+else
+    source "${FILE_BIN_FUNCTIONS}" 
+fi

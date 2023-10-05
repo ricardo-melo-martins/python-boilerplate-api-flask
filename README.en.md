@@ -3,20 +3,20 @@
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="python" width="60" height="60"/>
 </p>
 
-# RMM | Python Esqueleto padrão com Flask
+# RMM | Python Boilerplate with Flask
 
 <p align="right">
-[[English](:flag_en version)](README.en.md)
+[[Portuguese](:flag_br versão)](README.md)
 </p>
 
-## Requisitos
+## Requisites
 
  [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
  [![Pip 2.x](https://img.shields.io/badge/pip-2.x-blue.svg)](https://www.python.org/downloads/release/python-360/)
  [![Flask 2.x](https://img.shields.io/badge/Flask-2.x-blue.svg)](https://www.python.org/downloads/release/python-360/)
  [![Bash 2.x](https://img.shields.io/badge/Bash-2.x-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
-## Instalação
+## Install
 
 ```bash
 $ pip3 install -r ./requirements.txt
@@ -28,7 +28,7 @@ or with shell
 $ ./bin/install
 ```
 
-## Iniciando
+## Run
 
 ```bash
 $ Flask --app server run --debug
@@ -50,15 +50,6 @@ $ ./bin/start_dev
 
 ### Application
 
-Arquivos de caches da aplicação são gravados no diretório
-
-```
-/tmp/caches
-```
-mas também há arquivos do python `__pycache__, .pyc e .pyo` gravados em meio ao projeto.
-
-
-Se for preciso apagar os caches criados pela aplicação, existe um comando
 
 ```bash
 $ ./bin/clear_cache
@@ -69,24 +60,16 @@ $ ./bin/clear_cache
 
 ### Application
 
-Arquivos de logs são gravados no diretório
-```
-/tmp/logs
-```
-
-Para apagar arquivos de logs
 
 ```bash
 $ ./bin/clear_logs
 ```
 
 
-## Licença
+## License
 
 [![License](https://img.shields.io/badge/license-MIT-green?style=plastic)](LICENSE.md)
 
 
-
-Criado e mantido com diversão e :heart: por [![Github](https://img.shields.io/badge/-ricardo%20melo%20martins-000?style=plastic&logo=github)](https://github.com/ricardo-melo-martins)
-
+Created and maintained with fun and :heart: by [![Github](https://img.shields.io/badge/-ricardo%20melo%20martins-000?style=plastic&logo=github)](https://github.com/ricardo-melo-martins)
 

@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+source $(dirname $(readlink -fm $0))/common/bootstrap
+
+echo "Removendo Logs ..." 
+rm -rf $PATH_LOGS/*$FILE_LOGS_EXTENSION

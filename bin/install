@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+source $(dirname $(readlink -fm $0))/common/bootstrap
+
+header "INSTALL"
+
+info "Install requirements file"
+
+pip3 install -r $FILE_INSTALL  

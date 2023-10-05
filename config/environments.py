@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 
-# Configuração do servidor
+# Server
 HOST_ADDRESS = "0.0.0.0"
 HOST_PORT = 5000
 
-# Rotas
+# Routes
 API_NAMESPACE = '/api'
 
-# Configuração de Logs
+# Logs
 LOG_MODULE = 'RMM'
 
 # FORMATTER = logging.Formatter("%(asctime)s — %(name)s — %(levelname)s — %(message)s")
