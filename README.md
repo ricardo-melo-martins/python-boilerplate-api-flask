@@ -6,7 +6,7 @@
 # RMM | Python Esqueleto padrão com Flask
 
 <p align="right">
-[[English](:flag_en version)](README.en.md)
+[![English](:flag_en)](README.en.md)
 </p>
 
 ## Requisitos
