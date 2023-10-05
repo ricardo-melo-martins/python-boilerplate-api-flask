@@ -1,13 +1,15 @@
-<p align="center">
+<div align="center">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="60" height="60"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="python" width="60" height="60"/>
-</p>
+</div>
 
 # RMM | Python Boilerplate with Flask
 
-<p align="right">
-[[Portuguese](:flag_br versão)](README.md)
-</p>
+<div align="right">
+
+[Portuguese](README.md) | [English Readme](README.en.md)
+
+</div>
 
 ## Requisites
 
