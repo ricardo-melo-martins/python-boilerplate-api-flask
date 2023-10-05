@@ -1,0 +1,17 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.tabCompletion": "on",
+    "[markdown]": {
+      "editor.formatOnSave": false
+    },
+    "[python]": {
+      "editor.tabSize": 4,
+      "editor.defaultFormatter": "ms-python.pylint"
+    },
+    "pylint.path": [
+      "~/.env/python",
+      "-m",
+      "pylint"
+    ],
+  }
