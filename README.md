@@ -3,18 +3,27 @@
 ### ⚡ RMM ⚡
 
 </div>
-<div align="center">
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="60" height="60"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="python" width="60" height="60"/>
-</div>
 
-# Python Esqueleto padrão com Flask
+# python-flask-skeleton
 
 <div align="right">
 
-[Portuguese](README.md) | [English Readme](README.en.md)
+[<img src="https://raw.githubusercontent.com/lipis/flag-icons/main/flags/1x1/us.svg" alt="python" width="10" height="10"/> English Readme](docs/README.en.md)
 
 </div>
+
+<table>
+  <tr>
+    <td>
+      <p align="center">
+        <a href="https://www.python.org/" target="blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="60" alt="Python"></a>
+      </p>
+    </td>
+    <td>
+      <p align="center">Python é uma linguagem de programação que permite trabalhar rapidamente e integrar sistemas de forma mais eficaz.</p>
+    </td>
+  </tr>
+</table>
 
 ## Descrição
 
